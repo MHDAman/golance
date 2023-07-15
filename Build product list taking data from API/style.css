@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rebeccapurple;
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 1;
+}
+header img{
+    width: 350px;
+}
+header input{
+    width: 400px;
+    height: 5vh;
+}
+header button{
+    width: 150px;
+    height: 5vh;
+    cursor: pointer;
+}
+header h1{
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #fff;
+    padding-left: 30px;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f1f3f6;
+    display: grid;
+    grid-template-rows: 15vh;
+    margin-top: 10vh;
+   
+}
+nav{
+    background-color: #fff;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.16);
+    display: flex;
+    justify-content: center;
+}
+nav .wrapper{
+    width: 90%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: 1fr;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item img{
+    width: 80px;
+}
+.item a{
+    text-decoration: none;
+}
+.item a h2:hover{
+    color: rgb(116, 49, 182);
+    transition: 0.4ms;
+}
+.item h2{
+    font-family: sans-serif;
+    color: #000;
+    font-size: 15px;
+}
+.container-2{
+    width: 100%;
+    height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.banner{
+    background-color: gray;
+    width: 90%;
+    height: 35vh;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+main{
+    width: 100%;
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+}
+.container3{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+}
+.product-container{
+    width: 380px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: #fff;
+    margin: 20px;
+    overflow: hidden;
+    font-family: sans-serif;
+    padding: 9px;
+    padding-top: 19px;
+}
+.product-image{
+    width: 150px;
+    height: 150px;
+}
+.category{
+    font-size: 18px;
+    font-weight: bold;
+}
+.description{
+    font-size: 13px;
+    color: rgba(0,0,0,.6);
+}
+.title{
+    font-size: 15px;
+    font-weight: 600;
+}
+ footer{
+    background-color: #1c2332;
+    margin-top: 20px;
+    width: 100%;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container{
+    width: 95%;
+    min-height: 18vh;
+    background-color:transparent;
+    margin-top: 15px;
+  display: flex;
+  
+}
+.about{
+    flex: 1;
+   margin-top: 5px;
+}
+.about a {
+    text-decoration: none;
+}
+.about a h4{
+    font-family: sans-serif;
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400;
+}
+.about p{
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #fff;
+    line-height: 2;
+    margin-top: 5px;
+}
+.social{
+    flex: 1;
+   margin-top: 5px;
+   border-right: 1px solid gray;
+   height: 150px;
+}
+.social a {
+    text-decoration: none;
+}
+.social a h4{
+    font-family: sans-serif;
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400;
+}
+.social p{
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #fff;
+    line-height: 2;
+    margin-top: 5px;
+}
+.mail{
+    flex: 2;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+.mail a{
+    text-decoration: none;
+}
+.mail a h4{
+    font-family: sans-serif;
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400;
+}
+.mail p{
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #fff;
+    margin-top: 10px;
+}
+.mail p a{
+    color: #2874f0;
+}
+hr{
+    width: 100%;
+    margin-top: 30px;
+}
+.copyright{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 11px;
+   margin-top: 20px;
+    
+} 
